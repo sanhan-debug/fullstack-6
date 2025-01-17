@@ -1,0 +1,32 @@
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    /* z-index: 1; */
+    position: relative;
+    height: 80vh;
+    background-color: grey;
+}
+
+.container-hero .left {
+    width: 50%;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+
+    h1 {
+        font-weight: bold;
+
+        span {
+            font-weight: 100;
+        }
+    }
+}
+
+.right{
+    width: 50%;
+    background-image: url('https://preview.colorlib.com/theme/furnish/images/bg_2.jpg.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
